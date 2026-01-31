@@ -1,0 +1,2028 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\playwright.config.js",
+    "rootDir": "C:/Users/ASUS/Desktop/IT3040_Assignment1/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/IT3040_Assignment1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ASUS/Desktop/IT3040_Assignment1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "translation.spec.js",
+      "file": "translation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SwiftTranslator Singlish to Sinhala Tests (DOM-scan based)",
+          "file": "translation.spec.js",
+          "line": 185,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_001: Simple present tense",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5414,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_001 - Simple present tense\n"
+                        },
+                        {
+                          "text": "Input: mama gedhara yanavaa.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nයනවා\nයණවා.\nයනවා.\nSinhala\nමම ගෙදර යනවා.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:26:58.681Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-5796e5b4f69c3bf4d781",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_002: Simple need statement",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2572,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_002 - Simple need statement\n"
+                        },
+                        {
+                          "text": "Input: mata bath oonee.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඕණේ.\nඕනේ.\nSinhala\nමට බත් ඕනේ.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:04.204Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-25580d206e56206d0bdb",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_003: Simple plural statement",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2668,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_003 - Simple plural statement\n"
+                        },
+                        {
+                          "text": "Input: api paasal yanavaa.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nයනවා\nයණවා.\nයනවා.\nSinhala\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:06.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-c6d3650ce649770b54e2",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_004: Compound with conjunction",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2600,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_004 - Compound with conjunction\n"
+                        },
+                        {
+                          "text": "Input: mama gedhara yanavaa, haebaeyi vahina nisaa dhaenna yannee naee.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nනෑ\nනෑම\nනෑර\nනෑකම\nනෑදෑ\nනෑනා\nනෑම්\nනෑයා\nනෑයෝ\nනෑවූ\nනෑ වූ\nනෑකමට\nනෑකම්\nනෑකමේ\nනෑවුම\nනෑසෙන\nනෑදෑකම\nනෑදෑයා\nනෑදෑයෝ\nනෑම්බි\nSinhala\nමම ගෙදර යනවා, හැබැයි වහින නිසා දැන්න යන්නේ නෑ.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:09.473Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-e29c19589b42a848048e",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_005: Compound with comma",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2637,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_005 - Compound with comma\n"
+                        },
+                        {
+                          "text": "Input: api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nබලනවා\nබලණවා.\nබලනවා.\nබළණවා.\nබළනවා.\nඹලණවා.\nඹලනවා.\nඹළණවා.\nඹළනවා.\nSinhala\nඅපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:12.091Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-ce5d10b18b78db16d7e1",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_006: Conditional complex",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2630,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_006 - Conditional complex\n"
+                        },
+                        {
+                          "text": "Input: oya enavaanam mama balan innavaa.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඉන්නවා\nඉණ්ණවා.\nඉණ්නවා.\nඉන්ණවා.\nඉන්නවා.\nSinhala\nඔය එනවානම් මම බලන් ඉන්නවා.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:14.745Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-48da71258913f978405b",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_007: Cause-effect",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2634,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_007 - Cause-effect\n"
+                        },
+                        {
+                          "text": "Input: vaessa unath api yanna epaeyi.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඑපැයි.\nඑඵැයි.\nSinhala\nවැස්ස උනත් අපි යන්න එපැයි.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:17.395Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-b7ef2167e062af2bd7fe",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_008: Simple question",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2582,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_008 - Simple question\n"
+                        },
+                        {
+                          "text": "Input: oyaata kohomadha?\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nකොහොමද?\nකොහොමධ?\nඛොහොමද?\nඛොහොමධ?\nSinhala\nඔයාට කොහොමද?\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:20.051Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-7c47ea3f047c69968f47",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_009: Question with object",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2604,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_009 - Question with object\n"
+                        },
+                        {
+                          "text": "Input: meeka hariyata vaeda karanavaadha?\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nකරණවාද?\nකරණවාධ?\nකරනවාද?\nකරනවාධ?\nඛරණවාද?\nඛරණවාධ?\nඛරනවාද?\nඛරනවාධ?\nSinhala\nමේක හරියට වැඩ කරනවාද?\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:22.651Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-f5d7339a589506802a1a",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_010: Command",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2598,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_010 - Command\n"
+                        },
+                        {
+                          "text": "Input: vahaama enna.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඑන්න\nඑන්නට\nඑන්නත\nඑන්නා\nඑන්නෝ\nඑන්නතය\nඑන්නත්\nඑන්නාට\nඑන්නත්සාරය\nඑන්නත් කරනවා\nඑන්නත් කිරීම\nඑන්නට අණ කරනවා\nඑන්නත් කිරීමේ ආඥාපනත\nඑන්නත් කිරීමට ඇති ද්‍රාවණය බහා ඇති මුද්‍රා තබන ලද\nඑණ්ණ.\nඑණ්න.\nඑන්ණ.\nඑන්න.\nSinhala\nවහාම එන්න.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:25.270Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-f3fcfd9152729cabc7ce",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_011: Polite command",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2601,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_011 - Polite command\n"
+                        },
+                        {
+                          "text": "Input: issarahata yanna.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nයන්න\nයන්නට\nයන්නා\nයන්නී\nයන්නෙහි\nයන්නට හදන\nයන්නේදැයි\nයන්නට සූදානම් වූ\nයන්නට නොදී නවත්වාගැනීම\nයන්නට නොදී නවත්වාගන්නවා\nයණ්ණ.\nයණ්න.\nයන්ණ.\nයන්න.\nSinhala\nඉස්සරහට යන්න.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:27.887Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-12df19576bc5003eba13",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_012: Negative present",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2582,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_012 - Negative present\n"
+                        },
+                        {
+                          "text": "Input: mama ehema karannee naehae.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nනැහැ\nනැහැය\nනැහැකඩ\nනැහැඹි\nනැහැසි\nනැහැවුම\nනැහැසුම\nනැහැදුණු\nනැහැමින්\nනැහැසුම්\nනැහැදිච්ච\nනැහැදිච්චකම\nනැහැසි භාරය\nනැහැසුම් වළ\nනැහැසුම් තලය\nනැහැසුම් ගණනය\nනැහැසුම් දණ්ඩ\nනැහැසුම් හාරය\nනැහැසුම් කරාමය\nනැහැසුම් පීඩනය\nSinhala\nමම එහෙම කරන්නේ නැහැ.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:30.505Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-9f607f4ab16513dc5a7f",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_013: Negative future",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2557,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_013 - Negative future\n"
+                        },
+                        {
+                          "text": "Input: api heta ennee naehae.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nනැහැ\nනැහැය\nනැහැකඩ\nනැහැඹි\nනැහැසි\nනැහැවුම\nනැහැසුම\nනැහැදුණු\nනැහැමින්\nනැහැසුම්\nනැහැදිච්ච\nනැහැදිච්චකම\nනැහැසි භාරය\nනැහැසුම් වළ\nනැහැසුම් තලය\nනැහැසුම් ගණනය\nනැහැසුම් දණ්ඩ\nනැහැසුම් හාරය\nනැහැසුම් කරාමය\nනැහැසුම් පීඩනය\nSinhala\nඅපි හෙට එන්නේ නැහැ.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:33.104Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-e04fae9927a07378793c",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_014: Greeting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2570,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_014 - Greeting\n"
+                        },
+                        {
+                          "text": "Input: aayuboovan!\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nආයුබෝවන්\nආයුබෝවන් කීම\nආයුබෝවණ!\nආයුබෝවන!\nආයුඹෝවණ!\nආයුඹෝවන!\nSinhala\nආයුබෝවන්!\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:35.678Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-3ab564dd596e0d3ad72f",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_015: Time-based greeting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2579,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_015 - Time-based greeting\n"
+                        },
+                        {
+                          "text": "Input: suba udhaeesanak!\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඋදෑසනක්\nඋදෑසණක!\nඋදෑසණඛ!\nඋදෑසනක!\nඋදෑසනඛ!\nඋධෑසණක!\nඋධෑසණඛ!\nඋධෑසනක!\nඋධෑසනඛ!\nSinhala\nසුබ උදෑසනක්!\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:38.264Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-ff195ce3a82cea409610",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_016: Polite request",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2535,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_016 - Polite request\n"
+                        },
+                        {
+                          "text": "Input: karuNaakaralaa eka poddak balanna.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nබලන්න\nබලන්නා\nබලණ්ණ.\nබලණ්න.\nබලන්ණ.\nබලන්න.\nබළණ්ණ.\nබළණ්න.\nබළන්ණ.\nබළන්න.\nඹලණ්ණ.\nඹලණ්න.\nඹලන්ණ.\nඹලන්න.\nඹළණ්ණ.\nඹළණ්න.\nඹළන්ණ.\nඹළන්න.\nSinhala\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:40.855Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-2107f86968d1f3bb4ee5",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_017: Positive response",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2580,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_017 - Positive response\n"
+                        },
+                        {
+                          "text": "Input: hari, mama karannam.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nකරණ්ණම.\nකරණ්නම.\nකරන්ණම.\nකරන්නම.\nඛරණ්ණම.\nඛරණ්නම.\nඛරන්ණම.\nඛරන්නම.\nSinhala\nහරි, මම කරන්නම්.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:43.403Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-27a69b727aeaedd9d09d",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_018: Embedded brand term",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2687,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_018 - Embedded brand term\n"
+                        },
+                        {
+                          "text": "Input: Zoom meeting ekak thiyennee.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nතියෙණ්ණේ.\nතියෙණ්නේ.\nතියෙන්ණේ.\nතියෙන්නේ.\nථියෙණ්ණේ.\nථියෙණ්නේ.\nථියෙන්ණේ.\nථියෙන්නේ.\nSinhala\nZoom meeting එකක් තියෙන්නේ.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:46.001Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-606c4aa1d9491eefb4f7",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_019: Tech term in sentence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2595,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_019 - Tech term in sentence\n"
+                        },
+                        {
+                          "text": "Input: Documents tika attach karalaa mata email ekak evanna.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඑවන්නා\nඑවණ්ණ.\nඑවණ්න.\nඑවන්ණ.\nඑවන්න.\nSinhala\nDocuments ටික attach කරලා මට email එකක් එවන්න.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:48.703Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-67aea2e8ba4da435ff20",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_020: Currency",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2586,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_020 - Currency\n"
+                        },
+                        {
+                          "text": "Input: Rs. 5343 USD 1500\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\n1500\nSinhala\nRs. 5343 USD 1500\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:51.315Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-ea911aa16c84e8dfa39c",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_021: Time formats",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2583,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_021 - Time formats\n"
+                        },
+                        {
+                          "text": "Input: 7.30 AM 12.00 noon\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nනෝන්ජල්\nනෝන්ජලයා\nණෝණ්\nණෝන්\nනෝණ්\nනෝන්\nSinhala\n7.30 AM 12.00 noon\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:53.914Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-fb17a380cc1b51fdf85c",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_022: Informal greeting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2652,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_022 - Informal greeting\n"
+                        },
+                        {
+                          "text": "Input: ela machan! supiri!!\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nසුපිරි!!\nසුඵිරි!!\nSinhala\nඑල මචන්! සුපිරි!!\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:56.514Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-da4141405cb14f8a683f",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_023: Colloquial complaint",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2622,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_023 - Colloquial complaint\n"
+                        },
+                        {
+                          "text": "Input: appatasiri, mata beheth bonna amathaka vunaa kiyahankoo.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nකියහණ්කෝ.\nකියහණ්ඛෝ.\nකියහන්කෝ.\nකියහන්ඛෝ.\nඛියහණ්කෝ.\nඛියහණ්ඛෝ.\nඛියහන්කෝ.\nඛියහන්ඛෝ.\nSinhala\nඅප්පටසිරි, මට බෙහෙත් බොන්න අමතක වුනා කියහන්කෝ.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:27:59.180Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-4e317acbb888ed7f1d5e",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_024: Paragraph input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2613,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[POS] Pos_Fun_024 - Paragraph input\n"
+                        },
+                        {
+                          "text": "Input: dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaee m heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva aethi athara, ehi samastha dhiga pramaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYA bimal rathnaayaka saDHahan kaLeeya.\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nකලේය.\nකළේය.\nඛලේය.\nඛළේය.\nSinhala\nදිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑ m හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව ඇති අතර, එහි සමස්ත දිග ප්‍රමණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක සඳහන් කළේය.\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:01.816Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-fcfdc83a066d894e6444",
+              "file": "translation.spec.js",
+              "line": 190,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_001: Random typing",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3781,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_001 - Random typing\n"
+                        },
+                        {
+                          "text": "Input: asdfghjkl\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඅස්ඩ්ෆ්ඝ්ජ්ක්ල්\nඅස්ඩ්ෆ්ඝ්ජ්ඛ්ල්\nඅස්ඩ්ෆ්ඝ්ඦ්ක්ල්\nඅස්ඩ්ෆ්ඝ්ඦ්ඛ්ල්\nඅස්ඪ්ෆ්ඝ්ජ්ක්ල්\nඅස්ඪ්ෆ්ඝ්ජ්ඛ්ල්\nඅස්ඪ්ෆ්ඝ්ඦ්ක්ල්\nඅස්ඪ්ෆ්ඝ්ඦ්ඛ්ල්\nඅස්ඩ්ෆ්ග්හ්ජ්ක්ල්\nඅස්ඩ්ෆ්ග්හ්ජ්ඛ්ල්\nඅස්ඩ්ෆ්ග්හ්ඦ්ක්ල්\nඅස්ඩ්ෆ්ග්හ්ඦ්ඛ්ල්\nඅස්ඪ්ෆ්ග්හ්ජ්ක්ල්\nඅස්ඪ්ෆ්ග්හ්ජ්ඛ්ල්\nඅස්ඪ්ෆ්ග්හ්ඦ්ක්ල්\nඅස්ඪ්ෆ්ග්හ්ඦ්ඛ්ල්\nSinhala\nඅස්ඩ්ෆ්ග්හ්ජ්ක්ල්\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:04.448Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-7c784-d-Neg-Fun-001-Random-typing-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-7c784-d-Neg-Fun-001-Random-typing-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-7c784-d-Neg-Fun-001-Random-typing-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-02360894b4bad140eedb",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_002: No spaces stress test",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4175,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_002 - No spaces stress test\n"
+                        },
+                        {
+                          "text": "Input: mamagedharayanavaamatapaankannaooenehetaapiyanavaa\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nමමගෙදරයණවාමටපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයණවාමටඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයණවාමඨපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයණවාමඨඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයනවාමටපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයනවාමටඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයනවාමඨපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙදරයනවාමඨඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයණවාමටපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයණවාමටඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයණවාමඨපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයණවාමඨඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයනවාමටපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයනවාමටඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයනවාමඨපාන්කන්නඕඑනෙහෙටාපියනවා\nමමගෙධරයනවාමඨඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමඟෙදරයණවාමටපාන්කන්නඕඑනෙහෙටාපියනවා\nමමඟෙදරයණවාමටඵාන්කන්නඕඑනෙහෙටාපියනවා\nමමඟෙදරයණවාමඨපාන්කන්නඕඑනෙහෙටාපියනවා\nමමඟෙදරයණවාමඨඵාන්කන්නඕඑනෙහෙටාපියනවා\nSinhala\nමමගෙදරයනවාමටපාන්කන්නඕඑනෙහෙටාපියනවා\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:11.015Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-08ea2-n-002-No-spaces-stress-test-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-08ea2-n-002-No-spaces-stress-test-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-08ea2-n-002-No-spaces-stress-test-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-f55ce25657e01d48406c",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_003: Symbols only",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4163,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_003 - Symbols only\n"
+                        },
+                        {
+                          "text": "Input: @#$%^&*()\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\n@#$%^&*()\nSinhala\n@#$%^&*()\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:17.409Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-c9642-ed-Neg-Fun-003-Symbols-only-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-c9642-ed-Neg-Fun-003-Symbols-only-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-c9642-ed-Neg-Fun-003-Symbols-only-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-a315476bed608e85f36a",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_004: Empty field",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4181,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_004 - Empty field\n"
+                        },
+                        {
+                          "text": "Input: \n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nSinhala\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:23.775Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-2db3b-sed-Neg-Fun-004-Empty-field-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-2db3b-sed-Neg-Fun-004-Empty-field-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-2db3b-sed-Neg-Fun-004-Empty-field-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-c6d1db81dc4be485b94f",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_005: Long single char",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4262,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_005 - Long single char\n"
+                        },
+                        {
+                          "text": "Input: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආ\nSinhala\nආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආආ\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:30.167Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-22760-eg-Fun-005-Long-single-char-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-22760-eg-Fun-005-Long-single-char-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-22760-eg-Fun-005-Long-single-char-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-3b0b99da3ccc7ec10a7f",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_006: Pure English",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4178,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_006 - Pure English\n"
+                        },
+                        {
+                          "text": "Input: I am not Singlish at all 12345\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\n12345\nSinhala\nඉ am නොට් සින්ග්ලිශ් at all 12345\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:35.906Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-b76bd-ed-Neg-Fun-006-Pure-English-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-b76bd-ed-Neg-Fun-006-Pure-English-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-b76bd-ed-Neg-Fun-006-Pure-English-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-8368602da6d1c453b667",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_007: Excessive punctuation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4159,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_007 - Excessive punctuation\n"
+                        },
+                        {
+                          "text": "Input: mama gedhara yanavaa,,,\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nයණවා,,,\nයනවා,,,\nSinhala\nමම ගෙදර යනවා,,,\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:41.573Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-8e64d-n-007-Excessive-punctuation-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-8e64d-n-007-Excessive-punctuation-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-8e64d-n-007-Excessive-punctuation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-5c3aecfe1da26fd4163a",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_008: HTML injection",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4191,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_008 - HTML injection\n"
+                        },
+                        {
+                          "text": "Input: <script>alert(\"test\")</script>\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\n<සCරිප්ට>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිප්ට>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිප්ඨ>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිප්ඨ>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිඵ්ට>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිඵ්ට>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිඵ්ඨ>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සCරිඵ්ඨ>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිප්ට>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිප්ට>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිප්ඨ>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිප්ඨ>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිඵ්ට>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිඵ්ට>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිඵ්ඨ>අලෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\n<සcරිඵ්ඨ>අළෙර්ට(\"ටෙස්ට\")</සcරිප්ට>\nSinhala\n<script>alert(\"test\")</script>\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:47.964Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-e4cc5--Neg-Fun-008-HTML-injection-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-e4cc5--Neg-Fun-008-HTML-injection-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-e4cc5--Neg-Fun-008-HTML-injection-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-4766b74a4c26c1cb4d3e",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_009: Emojis",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4172,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_009 - Emojis\n"
+                        },
+                        {
+                          "text": "Input: 😊🙂🌍\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\n😊🙂🌍\nSinhala\n😊🙂🌍\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:28:54.351Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-90348-an-based-Neg-Fun-009-Emojis-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-90348-an-based-Neg-Fun-009-Emojis-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-90348-an-based-Neg-Fun-009-Emojis-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-273c9b2cfd990c4bbe01",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_010: SQL statement",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4128,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                          "column": 39,
+                          "line": 234
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                            "column": 39,
+                            "line": 234
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeFalsy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 232 |\u001b[39m\n \u001b[90m 233 |\u001b[39m       \u001b[90m// negative definition: should NOT produce Sinhala characters for garbage inputs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 234 |\u001b[39m       expect(\u001b[33mSINHALA_REGEX\u001b[39m\u001b[33m.\u001b[39mtest(out))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 235 |\u001b[39m\n \u001b[90m 236 |\u001b[39m       \u001b[90m// also ensure page didn’t crash\u001b[39m\n \u001b[90m 237 |\u001b[39m       expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js:234:39\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n[NEG] Neg_Fun_010 - SQL statement\n"
+                        },
+                        {
+                          "text": "Input: SELECT * FROM users\n"
+                        },
+                        {
+                          "text": "Output (detected): Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nඋසෙර්ස්\nSinhala\nSELECT * FROM users\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:29:00.739Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-440cd-d-Neg-Fun-010-SQL-statement-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-440cd-d-Neg-Fun-010-SQL-statement-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\test-results\\translation-SwiftTranslato-440cd-d-Neg-Fun-010-SQL-statement-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT3040_Assignment1\\tests\\translation.spec.js",
+                        "column": 39,
+                        "line": 234
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-b8696c20fbbe3a76d700",
+              "file": "translation.spec.js",
+              "line": 216,
+              "column": 5
+            },
+            {
+              "title": "Pos_UI_001: Real-time output updates (Sinhala appears while typing)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5255,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n[UI] Real-time updates\n"
+                        },
+                        {
+                          "text": "UI detected output: Singlish ↔ English Translator\nHelp\nSwitch Typing Language\nSinglish\nSinhala\nFeatures\nWord Autocorrect\nAutomatically correct common typos in input.\nSinglish Touchpad\nඅ\nආ\nඇ\nඈ\nඉ\nඊ\nඋ\nඌ\nඍ\nඎ\nඏ\nඐ\nඑ\nඒ\nඓ\nඔ\nඕ\nඖ\nක\nඛ\nග\nඝ\nඞ\nඟ\nච\nඡ\nජ\nඣ\nඤ\nට\nඨ\nඩ\nඪ\nණ\nඬ\nත\nථ\nද\nධ\nන\nඳ\nප\nඵ\nබ\nභ\nම\nඹ\nය\nර\nල\nව\nශ\nෂ\nස\nහ\nෆ\nළ\nා\nැ\nෑ\nි\nී\nු\nූ\nෘ\nෙ\nේ\nෛ\nො\nෝ\nෟ\nං\nඃ\n්\n්‍ර\n්‍ය\n⌫\n␣\nSinglish\nයනවා\nයණවා\nSinhala\n🗑️ Clear\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T22:29:07.046Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5008d569561cf84128c-31b5c03524eb251e3e46",
+              "file": "translation.spec.js",
+              "line": 242,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-30T22:26:57.489Z",
+    "duration": 135811.92799999999,
+    "expected": 25,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}
