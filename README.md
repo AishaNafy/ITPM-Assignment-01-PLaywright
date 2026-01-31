@@ -14,6 +14,19 @@ https://www.swifttranslator.com/
 - **Automated Testing:** Complete test automation using Playwright framework  
 
 ---
+## 🏗️ Project Structure
+
+```
+IT23321236/
+├── playwright-report
+├── test-results
+├── tests/
+│   └── translation.spec.ts   # Playwright test suite
+├── package.json              # Node.js dependencies
+├── playwright.config.ts      # Playwright configuration
+├── playwright-report/        # Test execution reports
+└── README.md                 # Project documentation
+```
 
 
 ## 🧪 Test Case Summary
@@ -80,33 +93,115 @@ Expected Outcome:
 Sinhala text appears during typing.
 
 ---
+## 🚀 Getting Started
 
-## 📂 Files Included for Submission
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-- ✅ Playwright automation test code (GitHub)
-- ✅ Excel sheet containing all 35 test cases
-- ✅ ZIP file containing:
-  - Test scripts
-  - Excel sheet
-  - README file
+### Installation
+
+1. **Clone the repository**
+   ```bash https://github.com/AishaNafy/ITPM-Assignment-01-PLaywright
+   cd itpm-playwright-testing
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Install Playwright browsers**
+   ```bash
+   npx playwright install
+   ```
+
+### Running Tests
+
+#### Run all tests
+```bash
+npx playwright test
+```
+
+#### Run tests on Chromium only
+```bash
+npx playwright test --project=chromium
+```
+
+#### Run specific test cases
+```bash
+# Run positive tests only
+npx playwright test --grep "Pos_Fun"
+
+# Run negative tests only
+npx playwright test --grep "Neg_Fun"
+
+# Run UI tests only
+npx playwright test --grep "Pos_UI"
+```
+
+#### View test reports
+```bash
+npx playwright show-report
+```
+
+#### Run tests in headed mode (visible browser)
+```bash
+npx playwright test --headed
+```
 
 ---
 
 ## 🛠 Tools & Technologies Used
 
-- Playwright
-- JavaScript (Node.js)
-- Unicode-based Sinhala validation
+- **Language**: JavaScript
+- **Testing**: Playwright, TypeScript
+- **Package Manager**: npm
+- **Version Control**: Git
+
+## 🔧 Configuration
+
+### Playwright Configuration (`playwright.config.ts`)
+- Test timeout: 30 seconds
+- Browser: Chromium (default)
+- Retries: 0 (for accurate failure reporting)
+- Parallel execution: Enabled (6 workers)
 
 ---
 
-## 📌 Conclusion
+# 🤝 Contributing
 
-- All 35 test cases implemented as required
-- Positive tests validate functionality
-- Negative tests validate robustness
-- UI test validates real-time behavior
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This repository is ready.
+## 📄 License
+
+This project is licensed under the ISC License - see the package.json file for details.
+
+## 👨‍💻 Author
+
+**Aisha Nafy** ! **[Aisha_Nafy](https://www.linkedin.com/in/aisha-nafy/)** 
+- Student ID: IT23321236
+- Course: IT3040 - IT Project Management
+- Institution: SLIIT
+
+## 📅 Project Timeline
+
+- **Project Start**: January 2026
+- **Development Phase**: Test case design and implementation
+- **Testing Phase**: Comprehensive automated testing
+- **Completion**: January 2026
+
+## 🔗 Related Links
+
+- [Playwright Documentation](https://playwright.dev/)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
+- [SLIIT Official Website](https://www.sliit.lk/)
+
+---
+
+**Note**: This project is part of the IT3040 - IT Project Management course assignment at SLIIT.
 
 ---
