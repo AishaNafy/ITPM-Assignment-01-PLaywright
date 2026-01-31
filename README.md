@@ -7,15 +7,14 @@ https://www.swifttranslator.com/
 
 ---
 
-## 📌 Purpose of This Repository
-
-This project is created only for academic submission to demonstrate:
-- Test case identification
-- Positive & negative scenario coverage
-- UI behavior validation
-- Automation using Playwright
+## 🎯 Project Objectives
+- **Functional Testing:** Verify accurate Singlish to Sinhala translation  
+- **UI Testing:** Ensure real-time translation and user interface functionality  
+- **Negative Testing:** Validate proper handling of invalid inputs  
+- **Automated Testing:** Complete test automation using Playwright framework  
 
 ---
+
 
 ## 🧪 Test Case Summary
 
