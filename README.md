@@ -61,7 +61,7 @@ Sinhala output should be generated correctly.
 
 ---
 
-## Negative Functional Test Cases (10)
+## Negative Functional Test Cases (10).
 
 These test cases validate system robustness.
 
